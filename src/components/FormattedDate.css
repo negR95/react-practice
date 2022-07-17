@@ -1,0 +1,12 @@
+.date-background {
+  display: flex;
+  padding: 10rem;
+  justify-content: center;
+}
+
+h1 {
+  height: 3rem;
+  width: 45%; 
+  border-radius: 20px;
+  text-align: center;
+}
