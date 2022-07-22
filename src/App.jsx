@@ -1,7 +1,8 @@
 import "./App.css";
-import Clock from "./components/Clock";
-import Counter from "./components/Counter";
-import ListItems from "./components/ListItems";
+import Clock from "./components/clock/Clock";
+import Counter from "./components/counter/Counter";
+import ListItems from "./components/list/ListItems";
+
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
 
       <Counter />
 
-    <ListItems />
+      <ListItems />
+
 
     </div>
 
