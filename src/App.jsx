@@ -1,27 +1,18 @@
 import "./App.css";
-import Clock from "./components/clock/Clock";
-import Counter from "./components/counter/Counter";
-import ListItems from "./components/list/ListItems";
-
-
+import Clock from "./Components/Clock/Clock";
+import Counter from "./Components/Counter/Counter";
+import ListItems from "./Components/ListItems/ListItems";
+import LoginForm from "./Components/LoginForm/LoginForm";
 
 function App() {
-
   return (
-
     <div>
-
       <Clock />
-
       <Counter />
-
       <ListItems />
-
-
+      <LoginForm />
     </div>
-
   );
 }
-
 
 export default App;
